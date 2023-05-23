@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "counter";
+  src: url(/assets/font/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1587960184060-aa880aabdd04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #eeeeee;
+}
+
+.counter-zero {
+  color: #f94f6d;
+  font-family: "counter";
+  font-size: 118px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: black;
+  width: 180px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+button {
+  font-size: 20px;
+  font-family: counter;
+  padding: 14px;
+  margin-top: 50px;
+  background-color: rgb(12, 12, 63);
+  color: #9aabd8;
+  border: 1px solid #9aabd8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-count {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-reset-font {
+  font-size: 30px;
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  height: 50vh;
+  max-width: 100%;
+  background-color: rgb(12, 12, 63);
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+
+.home,
+.guest {
+  width: calc(50% - 30px);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.reset-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 750px) {
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .counter-zero {
+    font-size: 70px;
+    width: 120px;
+    height: 100px;
+    margin-top: 25px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+  .reset-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .home,
+  .guest {
+    width: 50%;
+    margin-top: 25px;
+  }
+
+  .card {
+    width: 100vh;
+    height: auto;
+    max-width: 100%;
+  }
+
+  button {
+    font-size: 20px;
+    font-family: counter;
+    padding: 5px;
+    margin-top: 50px;
+    background-color: rgb(12, 12, 63);
+    color: #9aabd8;
+    border: 1px solid #9aabd8;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
