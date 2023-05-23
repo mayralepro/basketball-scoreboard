@@ -2,39 +2,41 @@ let countHome = document.getElementById("counter1");
 let countGuest = document.getElementById("counter2");
 let reset = document.getElementById("reset");
 
-let score = 0;
+let scoreHome = 0;
+let scoreGuest = 0;
+
 
 // +1
 
 function plusOneHome() {
-  score += 1;
-  countHome.textContent = score;
+  scoreHome += 1;
+  countHome.textContent = scoreHome;
 }
 function plusOneGuest() {
-  score += 1;
-  countGuest.textContent = score;
+  scoreGuest += 1;
+  countGuest.textContent = scoreGuest;
 }
 
 // +2
 
 function plusTwoHome() {
-  score += 2;
-  countHome.textContent = score;
+  scoreHome += 2;
+  countHome.textContent = scoreHome;
 }
 function plusTwoGuest() {
-  score += 2;
-  countGuest.textContent = score;
+  scoreGuest += 2;
+  countGuest.textContent = scoreGuest;
 }
 
 // +3
 
 function plusThreeHome() {
-  score += 3;
-  countHome.textContent = score;
+  scoreHome += 3;
+  countHome.textContent = scoreHome;
 }
 function plusThreeGuest() {
-  score += 3;
-  countGuest.textContent = score;
+  scoreGuest += 3;
+  countGuest.textContent = scoreGuest;
 }
 
 // New Game
