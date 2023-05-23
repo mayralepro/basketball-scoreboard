@@ -4,11 +4,12 @@ let reset = document.getElementById("reset");
 
 let scoreHome = 0;
 let scoreGuest = 0;
-
+let scoreReset = 0;
 
 // +1
 
 function plusOneHome() {
+  reset = 0;
   scoreHome += 1;
   countHome.textContent = scoreHome;
 }
@@ -42,7 +43,8 @@ function plusThreeGuest() {
 // New Game
 
 function newGame() {
-  score = 0;
-  countHome.textContent = score;
-  countGuest.textContent = score;
+  scoreHome = 0;
+  scoreGuest = 0;
+  countHome.textContent = scoreHome;
+  countGuest.textContent = scoreGuest;
 }
