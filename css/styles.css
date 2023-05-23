@@ -27,6 +27,7 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
   color: #eeeeee;
+  text-transform: uppercase;
 }
 
 .counter-zero {
@@ -72,12 +73,11 @@ button {
   justify-content: center;
   align-items: center;
   width: 70vh;
-  height: 50vh;
+  height: auto;
   max-width: 100%;
   background-color: rgb(12, 12, 63);
   padding: 20px;
   border-radius: 20px;
-  
 }
 
 .home,
