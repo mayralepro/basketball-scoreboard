@@ -1,21 +1,21 @@
-## Basketball Scoreboard
+# Basketball Scoreboard
 
 Project of a Basketball Scoreboard using JavaScript.
 
-# Languages
+## Languages
 * HTML5  
 * CSS3  
 * Javascript  
 
-# What I learnt
+## What I learnt
 * JavaScript programming fundamentals  
 * DOM manipulation and event handling in JavaScript  
 * Implementing button functionality and event listeners
 
-# Links
+## Links
 
-* Live Site URL: [Netlify](https://basketball-scoreboard-ml.netlify.app/)
+Live Site URL: [Netlify](https://basketball-scoreboard-ml.netlify.app/)
 
-# Acknowledgements
+## Acknowledgements
 
 [Scrimba](scrimba.com/")
